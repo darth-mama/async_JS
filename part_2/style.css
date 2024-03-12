@@ -1,35 +1,40 @@
 body {
-    text-align: center;
-    background-color: green;
-  }
+  text-align: center;
+}
 
-  button {
-    padding: 15px;
-    background-color: black;
-    color: white;
-    border-radius: 8px;
-    border: none;
-    display: none;
-    margin: 0 auto;
-  }
+button {
+  padding: 15px;
+  background-color: burlywood;
+  color: white;
+  border-radius: 8px;
+  border: none;
+  margin: 0 auto;
+}
 
-  button:hover {
-    cursor: pointer;
-    background-color: #444;
-  }
+button:hover {
+  cursor: pointer;
+  background-color: darkred;
+}
 
-  button:active,
-  button:focus {
-    outline: none;
-  }
+button:active,
+button:focus {
+  outline: none;
+}
 
-  #card-area {
-    margin-top: 80px;
-  }
+#pokemon-area {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
 
-  #card-area > img {
-    position: absolute;
-    left: 0;
-    right: 0;
-    margin: auto;
-  }
+.card {
+  width: 250px;
+  background-color: green;
+  border: 8px solid mistyrose;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.card p {
+  font-family: 'Courier New', Courier, monospace;
+}
