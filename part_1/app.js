@@ -2,7 +2,7 @@ let favNum = 777;
 let baseURL = "http://numbersapi.com";
 
 async function num_api() {
-  let data = await $.getJSON(`${baseURL}/${favNumber}?json`);
+  let data = await $.getJSON(`${baseURL}/${favNum}?json`);
   console.log(data);
 }
 num_api();
